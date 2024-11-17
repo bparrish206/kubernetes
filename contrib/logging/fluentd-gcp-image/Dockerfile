@@ -5,7 +5,7 @@
 # the collection is a VM that has been created with a logging.write
 # scope.
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Satnam Singh "satnam@google.com"
 
 # Ensure there are enough file descriptors for running Fluentd.
